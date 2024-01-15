@@ -9,7 +9,7 @@
 ## Getting Started 🚀
 #### 1. Clone this repository
 ```
-$git clone https://github.com/marielbalaoro/docker-php-crud.git
+$git clone https://github.com/marielbalaoro/album.git
 ```
 
 #### 2. RUN this command
