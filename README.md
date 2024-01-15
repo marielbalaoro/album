@@ -26,7 +26,7 @@ http://localhost:8081
 username: devuser
 password`: devpass
 ```
-#### create table in crud_db database
+#### 4. Create table in crud_db database
 ```sql
 CREATE TABLE `songs` (
     `id` int NOT NULL,
@@ -42,7 +42,7 @@ ALTER TABLE `songs`
 MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 ```
 
-#### 4. Access web
+#### 5. Access web
 http://localhost:8000
 
 &copy; 2024 - developed by <a href="https://github.com/marielbalaoro">Mariel</a>.
