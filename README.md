@@ -1,5 +1,5 @@
 # SONG LYRICS CRUD
-# Docker-PHP-MySql
+# Docker-PHP-MySQL
 ```
 - docker 24.0.7
 - docker-compose 1.25.4
@@ -7,25 +7,27 @@
 - MySQL 8.2
 ```
 ## Getting Started 🚀
+#### 1. Clone this repository
 ```
-# Clone this repository
-1. $git clone https://github.com/marielbalaoro/docker-php-crud.git
-
-# RUN this command
-2. cd docker-php-crud
-3. docker-compose up -d
-
-# access phpMyAdmin
-4. http://localhost:8081
-
-`username: devuser`
-`password`: devpass`
-
-# access web
-5. http://localhost:8000
-
-6. create table in crud_db database
+$git clone https://github.com/marielbalaoro/docker-php-crud.git
 ```
+
+#### 2. RUN this command
+```
+cd album
+```
+```
+docker-compose up -d
+```
+
+#### 3. Access phpMyAdmin
+http://localhost:8081
+```
+username: devuser
+password`: devpass
+```
+#### create table in crud_db database
+```sql
 CREATE TABLE `songs` (
     `id` int NOT NULL,
     `title` varchar(100) NOT NULL,
@@ -39,5 +41,8 @@ ADD PRIMARY KEY (`id`);
 ALTER TABLE `songs`
 MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 ```
-```
+
+#### 4. Access web
+http://localhost:8000
+
 &copy; 2024 - developed by <a href="https://github.com/marielbalaoro">Mariel</a>.
